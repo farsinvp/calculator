@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Webpage</title>
+ 
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" >
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <div class="navbar navbar-expand-md navbar-light"> <div class="container-fluid">
+        <div>
+        <a href="#" class="navbar-brand text-uppercase">Kerala Tourism Board</a> 
+    </div>
+        
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="#" class="nav-link text-uppercase" >blog</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase">articles</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase">gallery</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-uppercase">contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+
+      <div class="container-fluid px-0">
+        <div id="main-carousel" class="carousel slide" data-ride="carousel"> 
+            <ol class="carousel-indicators">
+            <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#main-carousel" data-slide-to="1" class="active"></li>
+            <li data-target="#main-carousel" data-slide-to="2" class="active"></li>
+            </ol>
+
+        <div class="carousel-inner">
+            <div  class="carousel-item active">
+                <img src="./image/image1.jpg" alt="" class="d-block w-100 img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 text-uppercase">Escape the ordinary and discover the extraordinary</h5>
+                    <div class="text-left">
+                        <p class="lead">“Once the Travel bug bites there is no known antidote, and I know that I shall be happily infected until the end of my life.”</p>
+                        <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div  class="carousel-item active">
+                <img src="./image/image2.jpg" alt="" class="d-block w-100 img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 text-uppercase">Escape the ordinary and discover the extraordinary</h5>
+                    <div class="text-left">
+                        <p class="lead">“Once the Travel bug bites there is no known antidote, and I know that I shall be happily infected until the end of my life.”.</p>
+                        <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div  class="carousel-item active">
+                <img src="./image/image3.jpg" alt="" class="d-block w-100 img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-4 text-uppercase">Escape the ordinary and discover the extraordinary</h5>
+                    <div class="text-left">
+                        <p class="lead">“Once the Travel bug bites there is no known antidote, and I know that I shall be happily infected until the end of my life.”</p>
+                        <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <a href="#main-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#main-carousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>  -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    </div>
+    </div>
+
+    <div class="container-fluid p-5">
+        <div class="d-flex align-items-center justify-content-around">
+            <div  class="btn-group">
+                <!-- <button
+                class="btn btn-light dropdown-toggle text-uppercase border-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+        </button> -->
+            </div>
+
+            <div></div>
+
+            <!-- <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Action</a>
+                <a href="#" class="dropdown-item">Another action</a>
+                <a href="#" class="dropdown-item"></a>
+                <div class="dropdown-divider">Link</div>
+                <a href="#" class="dropdown-item">Another link</a>    
+            </div>
+        </div> -->
+
+        <div>
+            <h4 class="text-uppercase font-weight-bold">newest articles</h4>
+        </div>
+
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search by Keywords"> 
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" id="button-addon2">Search</button>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="container-fluid p-5">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://www.spinonholidays.com/wp-content/uploads/2022/03/Kozhikode_Tourist_Places.webp" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Kozhikode</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reiciendis reprehenderit? Tenetur aperiam quasi quos eaque aliquam libero eos minus, perferendis nisi delectus dignissimos et facilis veniam laborum dolores assumenda!</p>
+                                <h5 class="card-title text-uppercase">Package Starting 5999</h5>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://media2.thrillophilia.com/images/photos/000/004/139/original/1552981777_bekal_fort.jpg?width=975&height=600" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Kasargod</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reiciendis reprehenderit? Tenetur aperiam quasi quos eaque aliquam libero eos minus, perferendis nisi delectus dignissimos et facilis veniam laborum dolores assumenda!</p>
+                                <h5 class="card-title text-uppercase">Package Starting 1999</h5>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://www.oyorooms.com/blog/wp-content/uploads/2019/06/Padmanabha-Swamy-Temple-Famous-8-places-to-visit-in-trivandrum-1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Trivandram</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reiciendis reprehenderit? Tenetur aperiam quasi quos eaque aliquam libero eos minus, perferendis nisi delectus dignissimos et facilis veniam laborum dolores assumenda!</p>
+                                <h5 class="card-title text-uppercase">Package Starting 2999</h5>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="https://www.amastaysandtrails.com/content/dam/ama/Our-hotels/wayanad/Wayanad.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase">Wayanad</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reiciendis reprehenderit? Tenetur aperiam quasi quos eaque aliquam libero eos minus, perferendis nisi delectus dignissimos et facilis veniam laborum dolores assumenda!</p>
+                                <h5 class="card-title text-uppercase">Package Starting 1899</h5>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="./image/image4.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <!-- <h6 class="text-muted text-uppercase">post on 06 october 2023</h6> -->
+                            <h5 class="card-title text-uppercase"></h5>
+                            <div class="text-muted">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reiciendis reprehenderit? Tenetur aperiam quasi quos eaque aliquam libero eos minus, perferendis nisi delectus dignissimos et facilis veniam laborum dolores assumenda!</p>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="./image/image4.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="text-muted text-uppercase">post on 06 october 2023</h6>
+                            <h5 class="card-title text-uppercase"> title</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reiciendis reprehenderit? Tenetur aperiam quasi quos eaque aliquam libero eos minus, perferendis nisi delectus dignissimos et facilis veniam laborum dolores assumenda!</p>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="./image/image4.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="text-muted text-uppercase">post on 06 october 2023</h6>
+                            <h5 class="card-title text-uppercase"> title</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reiciendis reprehenderit? Tenetur aperiam quasi quos eaque aliquam libero eos minus, perferendis nisi delectus dignissimos et facilis veniam laborum dolores assumenda!</p>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card">
+                        <img src="./image/image4.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="text-muted text-uppercase">post on 06 october 2023</h6>
+                            <h5 class="card-title text-uppercase"> title</h5>
+                            <div class="text-muted">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, reiciendis reprehenderit? Tenetur aperiam quasi quos eaque aliquam libero eos minus, perferendis nisi delectus dignissimos et facilis veniam laborum dolores assumenda!</p>
+                                <p class="text-capitalize">read more <i class="fas fa-long-arrow-alt-right ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-fluid bg-dark py-1">
+                <p class="text-white text-center text-capitalize">All rights reserved &copy;2023</p>
+
+            </div>
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+    
+</html>

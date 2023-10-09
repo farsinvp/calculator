@@ -1,0 +1,253 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); 
+  
+  *{
+    margin: 0;
+    padding: 0;
+   font-family: 'Poppins', sans-serif;
+  }
+  .container{
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* 1 vh=1% */
+    background-color: white;
+
+
+  }
+  nav{
+    display: flex;
+    width: 85%;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  nav .logo{
+    width: 120px;
+
+  }
+  nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+  }
+  /* pseudo class to get special effect in move cover 
+  syntax
+  selectors: pseudo-class-name{property:value}
+   */
+  nav ul li a:hover{
+    color: black;
+
+  }
+  .tittile {
+    margin-left: 8%;
+    margin-top: 10%;
+  }
+  .tittile h1{
+    font-size: 50px;
+    color:darkgreen;
+    margin-bottom: 25px;
+
+  }
+  .tittile span{
+    color:rgb(26, 9, 94);
+    font-size: 50px;
+  }
+  .tittile a{
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 30px;
+
+
+  }
+  .tittile p{
+    color: brown;
+    line-height: 25px;
+
+  }
+  .images{
+    width: 45%;
+    height: 80%;
+    position:absolute;
+    right: 30px;
+    bottom: 0;
+
+  }
+  .images img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+  
+  }
+  #about{
+    margin-left: 8%;
+    margin-top: 30%;
+    margin-right: 8%;
+  }
+  .heading{
+    text-align: center;
+  }
+  .heading h2{
+    font-size: 35px;
+  }
+  .heading span{
+    font-size: 22px;
+    
+    color: rgb(109, 12, 109);
+  }
+  .about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .about-img img{
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .about-text{
+    text-align: justify;
+
+  }
+  .information{
+    margin: 1rem 0 1.4rem;
+  }
+
+  .information .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .information .info-box span{
+    font-weight: 400;
+    margin-left: 10px;
+
+
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  #skills{
+    margin-left: 8%;
+    margin-top: 13%;
+    margin-right: 8%;
+
+    
+  }
+  .skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+
+  }
+  .skill-img img{
+    width: 50%;
+    object-position: center;
+    padding: 3rem;
+  }
+  .bar-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 16px;
+
+  }
+
+  .bar-box h2{
+    font-size: 25px;
+    font-weight: 800;
+
+
+  }
+  .bar-box span{
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .light-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: aqua;
+    border-radius: 8px;
+  }
+  .percent-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    border-radius: 8px;
+
+  }
+  .html-bar{
+    width: 96%;
+
+  }
+  .css-bar{
+    width: 94%;
+  }
+  .js-bar{
+    width: 90%;
+
+  }
+  .angular-bar{
+    width: 85%;
+  }
+
+  #contact{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13%;
+  }
+  .iconDiv{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .icon{
+    width: 50px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    margin: 0 10px;
+
+  }
+  .icon i{
+    font-size: 20px;
+
+  }
+  .icon i:hover{
+    color: #017143;
+}
+footer{
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+
+

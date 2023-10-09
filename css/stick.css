@@ -1,0 +1,11 @@
+#d1{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#d2{
+    background-color: brown;
+    position: sticky;
+    top: 15px;
+}
